@@ -1,3 +1,7 @@
+### UV
+curl -LsSf https://astral.sh/uv/install.sh | sh
+source $HOME/.local/bin/env
+
 # __2025_10_26_chihlee_pi_pico__
 致理課程:樹莓派pico_w整合雲端物聯網運用實作班
 

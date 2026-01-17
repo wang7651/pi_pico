@@ -12,7 +12,7 @@ import random
 # MQTT 設定
 BROKER = "localhost"
 PORT = 1883
-TOPIC = "客廳/感測器"  # 與 config.py 中的設定一致
+TOPIC = "living_room/sensor"  # 與 config.py 中的設定一致
 
 def on_connect(client, userdata, flags, reason_code, properties):
     """連線回調函數"""
@@ -101,6 +101,6 @@ if __name__ == "__main__":
     print("2. Streamlit 應用程式正在運行並已連線 MQTT")
     print("\n按 Ctrl+C 可隨時中斷\n")
     
-    time.sleep(2)
+    time.sleep(6)
     main()
 
